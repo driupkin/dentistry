@@ -1,0 +1,11 @@
+.menu__button_active {
+    margin-top: 16px;
+    margin-left: 75%;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    transition: margin-left 1s ease;
+}
+
+.menu__button_active:active {
+    margin: 13px 13px 13px 75%;
+}

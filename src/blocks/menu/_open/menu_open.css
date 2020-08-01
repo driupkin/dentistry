@@ -1,0 +1,4 @@
+.menu_open {
+    transform: none;
+    transition: all 1s ease;
+}
