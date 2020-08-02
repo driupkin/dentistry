@@ -1,0 +1,4 @@
+.menu__container_opened {
+    transform: none;
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}

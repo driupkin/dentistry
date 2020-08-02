@@ -1,11 +1,11 @@
 @import url('./__button/menu__button.css');
 @import url('./__list/menu__list.css');
+@import url('./__container/menu__container.css');
 .menu {
-    transform: translateX(-100%);
-    transition: all 1s ease;
-    width: 25%;
-    height: 100vh;
-    background-color: #f0f8ff;
+    display: flex;
     position: fixed;
-    opacity: 0.8;
+    width: 72px;  
+    height: 100vh; 
+    justify-content: flex-end; 
+    transition: all 1s ease;
 }
