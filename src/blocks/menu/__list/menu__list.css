@@ -1,5 +1,10 @@
-.menu__list { 
-margin-top: 120px;
-list-style: none;
-font-family: Gunplay-Regular;
+.menu__list {
+    margin-top: 120px;
+    list-style: none;
+    font-family: Gunplay-Regular;
+    font-size: 20px;
+    color: midnightblue;
+    text-align: center;
+    padding: 0;
+    
 }

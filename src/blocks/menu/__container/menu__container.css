@@ -3,8 +3,7 @@
     transition: all 1s ease;
     width: 250px;
     height: 100%;
-    background-color: #f0f8ff;
-    opacity: 0.8;
+    background-color: rgba(240, 248, 255, 0.6);;
     position: absolute;
     transition-delay: .6s;
 }

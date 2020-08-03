@@ -1,0 +1,25 @@
+.menu__list-item {
+    display: flex;
+    margin: 5px 16px;
+    background-color: lightblue;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 46px;
+    box-shadow: 5px 5px 5px -3px;
+    justify-content: center;
+    align-items: center;
+    border: outset;
+    background: radial-gradient(ellipse closest-corner at 75px 3px ,white, #add8e6);
+}
+
+.menu__list-item:hover {
+    border-left: solid;
+    cursor: pointer;
+}
+
+.menu__list-item:active {
+    box-shadow: 0 0 0 0;
+    top: 3px;
+    position: relative;
+    left: 3px;
+}

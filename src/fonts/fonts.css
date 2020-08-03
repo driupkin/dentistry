@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Gunplay-Regular';
+  font-style: normal;
+  src: url("./Gunplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'RussianSuvenir-Regular';
+  font-style: normal;
+  src: url("./RussianSuvenir-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Pribambas-Regular';
+  font-style: normal;
+  src: url("./Pribambas-Regular.ttf") format("truetype");
+}
