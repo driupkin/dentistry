@@ -1,0 +1,14 @@
+.logo_hidden {
+    visibility: visible;
+    opacity: 0;    
+    animation: opacity 4s ease 1.5s 1 forwards;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

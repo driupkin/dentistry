@@ -3,6 +3,7 @@
 @import url('./__container/menu__container.css');
 @import url('./__list-item/menu__list-item.css');
 @import url('./social-icon/menu__social-icon.css');
+@import url('./__social/menu__social.css');
 .menu {
     display: flex;
     position: fixed;

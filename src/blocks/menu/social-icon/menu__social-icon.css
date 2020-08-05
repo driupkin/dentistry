@@ -1,10 +1,6 @@
 .menu__social-icon {
     width: 40px;
     height: 40px;
-    margin: 16px 0 0 0;
     border-radius: 50%;
     object-fit: cover;
-}
-.menu__social-icon:first-child {
-    margin-left: 16px;
 }

@@ -10,6 +10,8 @@
     align-items: center;
     border: outset;
     background: radial-gradient(ellipse closest-corner at 75px 3px ,white, #add8e6);
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+    line-height: 16px;
 }
 
 .menu__list-item:hover {

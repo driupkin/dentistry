@@ -6,3 +6,7 @@
 @import url('../blocks/menu/_opened/menu_opened.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_hidden/logo_hidden.css');
+@import url('../blocks/menu/__button/_active/menu__button_active.css');
+/* @import url('../blocks/logo/_menu/logo_menu.css'); */
+@import url('../blocks/logo/_visible/logo_visible.css');

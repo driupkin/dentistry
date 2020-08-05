@@ -17,10 +17,11 @@
     /* position: absolute; */
     z-index: 1;
 }
-.menu__button:hover {
-    transform: rotate(360deg);
-    /* transition-property: transform, margin;     */
-}
+ .menu__button:hover {
+      /* direction fill-mode */
+    /* transform: rotate(360deg);
+    /* transition-property: transform, margin;   */  
+} 
 .menu__button:active {
     /* width: 35px;
     height: 35px;
@@ -31,3 +32,4 @@
     margin: 13px;
     box-shadow: 0 0 5px 2px red;
 }
+

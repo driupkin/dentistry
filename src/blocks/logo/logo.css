@@ -1,4 +1,5 @@
+@import url('./_menu/logo_menu.css');
 .logo {
-    position: inherit;
-    margin: 0 72px;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
