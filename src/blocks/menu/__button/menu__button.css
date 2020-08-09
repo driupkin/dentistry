@@ -11,22 +11,15 @@
     background-position: center;
     cursor: pointer;
     outline: 0;
-    /* box-shadow: 0 0 5px 1px blue; */
+    
     box-shadow: 0 0 2px red;
-    transition: transform 1s ease;
-    /* position: absolute; */
+    /* transition: transform 1s ease; */
+    
     z-index: 1;
 }
- .menu__button:hover {
-      /* direction fill-mode */
-    /* transform: rotate(360deg);
-    /* transition-property: transform, margin;   */  
-} 
+ 
 .menu__button:active {
-    /* width: 35px;
-    height: 35px;
-    margin: 18px;
-    box-shadow: none; */
+    /* transform:scale(1.2); */
     width: 45px;
     height: 45px;
     margin: 13px;
