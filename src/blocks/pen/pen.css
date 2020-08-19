@@ -1,25 +1,80 @@
 .pen {
-    fill: none;
-    stroke: red;
-    stroke-width: 18;
-    stroke-linecap: round;
-    clip-path: url(#logo);
-  
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
-    animation-duration: 2s;
-    animation-name: draw;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+  fill: none;
+  stroke: red;
+  stroke-width: 50;
+  stroke-linecap: round;
+  clip-path: url(#logo);
+
+  stroke-dasharray: 2635;
+  stroke-dashoffset: 2635;
+  animation-duration: 0.5s;
+  animation-name: draw;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.p {
+  stroke: black;
+}
+
+.pen_delay_vl {
+  animation-delay: 1s;
+}
+.pen_delay_v {
+  animation-delay: 1.4s;
+}
+.pen_delay_iil {
+  animation-delay: 2.2s;
+}
+.pen_delay_iir {
+  animation-delay: 2.7s;
+}
+.pen_delay_hl {
+  animation-delay: 3.2s;
+}
+
+.pen_delay_hr {
+  animation-delay: 3.6s;
+}
+.pen_delay_i {
+  animation-delay: 4s;
+}
+.pen_delay_nl {
+  animation-delay: 4.8s;
+}
+.pen_delay_nm {
+  animation-delay: 5.6s;
+}
+.pen_delay_nr {
+  animation-delay: 5.2s;
+}
+.pen_delay_o {
+  animation-delay: 6s;
+}
+.pen_delay_pot {
+  animation-delay: 6.4s;
+}
+.svg {
+  display: block;
+}
+
+.svg_visible {
+  display: none;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 2635;
+    
   }
   
-  @keyframes draw {
-    from {
-      stroke-dashoffset: 200;
-    }
-  
-    to {
-      stroke-dashoffset: 0;
-    }
+  30% {
+    stroke-width: 100;
   }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-width: 150;
+  }
+}
