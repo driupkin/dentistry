@@ -1,9 +1,13 @@
 .menu__button_active {
-    animation: scale 1.5s ease-in-out 1s infinite both;
+    animation: scale 1s infinite;
 }
 
 .menu__button_active:focus {
     animation: rotation 1.5s cubic-bezier(.09, .61, .76, 1) 0.8s 1 forwards;
+}
+
+.menu__button_active:hover {
+    animation-play-state: paused;
 }
 
 @keyframes rotation {
@@ -16,9 +20,9 @@
 }
 @keyframes scale {
     0% {
-       transform:scale(1,1);
+       transform: scale(1);
     }
     100% {
-        transform: scale(1.1,1.1);
+        transform: scale(1.1);
     }
 }

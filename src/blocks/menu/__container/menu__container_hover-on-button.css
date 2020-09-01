@@ -1,0 +1,4 @@
+.menu__container_hover-on-button {
+    transform: translateX(-24%);
+    transition: transform 0.2s;
+}

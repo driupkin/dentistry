@@ -11,18 +11,13 @@
     background-position: center;
     cursor: pointer;
     outline: 0;
-    
-    box-shadow: 0 0 2px red;
-    /* transition: transform 1s ease; */
-    
+    box-shadow: 0 0 2px red;   
     z-index: 1;
 }
  
 .menu__button:active {
-    /* transform:scale(1.2); */
     width: 45px;
     height: 45px;
     margin: 13px;
     box-shadow: 0 0 5px 2px red;
 }
-

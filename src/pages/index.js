@@ -19,3 +19,9 @@ document.addEventListener('click', (evt) => {
         menu.classList.remove('menu_opened');
     }
 });
+menuButton.addEventListener('mouseover', () => {
+    menuContainer.classList.add('menu__container_hover-on-button');
+});
+// menuButton.addEventListener('mouseout', () => {
+//     menuContainer.classList.remove('menu__container_hover-on-button');
+// });
