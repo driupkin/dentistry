@@ -1,6 +1,6 @@
 .page {
     min-height: 100vh;
-    background-image: url('../../images/background.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(255,255,255,.5)), url('../../images/background.jpg');
     background-size: cover;
     background-position: center;
 }
